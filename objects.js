@@ -12,3 +12,5 @@ function removeFromPlaylist(obj, key) {
   delete obj.key
   return obj
 }
+
+removeFromPlaylist(playlist, Howard)
