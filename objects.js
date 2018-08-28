@@ -1,1 +1,1 @@
-var playlist = { Portugal: Promises }
+var object = (playlist, { Ben Howare: ['Promises'] })
