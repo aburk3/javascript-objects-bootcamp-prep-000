@@ -6,3 +6,9 @@ function updatePlaylist(obj, key, value) {
 }
 
 updatePlaylist(playlist, 'QTY', 'Rodeo')
+
+
+function removeFromPlaylist(obj, key) {
+  delete obj.key
+  return obj
+}
