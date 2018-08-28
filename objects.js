@@ -5,12 +5,11 @@ function updatePlaylist(obj, key, value) {
   return playlist
 }
 
-updatePlaylist(playlist, 'QTY', 'Rodeo')
+updatePlaylist(playlist, 'qty', 'Rodeo')
 
 
-function removeFromPlaylist(obj, key) {
-  delete obj.key
+function removeFromPlaylist(obj, 'qty') {
+  delete obj.qty
   return playlist
 }
 
-removeFromPlaylist(playlist, 'Slowdive')
