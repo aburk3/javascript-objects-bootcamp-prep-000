@@ -8,8 +8,8 @@ function updatePlaylist(obj, key, value) {
 updatePlaylist(playlist, 'qty', 'Rodeo')
 
 
-function removeFromPlaylist(obj, 'qty') {
-  delete obj.qty
+function removeFromPlaylist(obj, key) {
+  delete obj.key
   return playlist
 }
 
