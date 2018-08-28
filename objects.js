@@ -11,4 +11,4 @@ function removeFromPlaylist(obj, key) {
   delete obj.key
   return playlist
 }
-
+removeFromPlaylist(playlist, 'qty')
