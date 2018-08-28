@@ -13,4 +13,4 @@ function removeFromPlaylist(obj, key) {
   return playlist
 }
 
-removeFromPlaylist(playlist, 'QTY')
+removeFromPlaylist(playlist, 'Slowdive')
