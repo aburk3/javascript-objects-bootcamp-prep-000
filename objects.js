@@ -4,7 +4,7 @@ function updatePlaylist(obj, key, value) {
   obj[key] = value
   return playlist
 }
-
+//updatePlaylist(playlist, 'qty', 'Rodeo')
 
 
 function removeFromPlaylist(obj, key) {
